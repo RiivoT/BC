@@ -1,4 +1,12 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "DeployToriivot-sandbox": {
+    "EnvironmentType": "SaaS",
+    "EnvironmentName": "riivot-sandbox",
+    "Branches": [ "main" ],
+    "Projects": "*",
+    "SyncMode": "ForceSync",
+    "ContinuousDeployment": true,
+    "runs-on": "ubuntu-latest"
 }
