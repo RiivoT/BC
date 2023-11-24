@@ -9,4 +9,5 @@
     "SyncMode": "ForceSync",
     "ContinuousDeployment": true,
     "runs-on": "ubuntu-latest"
+  }
 }
